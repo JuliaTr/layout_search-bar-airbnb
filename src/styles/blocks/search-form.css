@@ -13,7 +13,7 @@
   color: #3d4e61;
   text-align: left;
 
-  background-image: url(../images/Search.svg);
+  background-image: url(../../images/Search.svg);
   background-repeat: no-repeat;
   box-shadow: 0 1px 8px #3d4e611a;
 }
@@ -50,7 +50,7 @@
 .search-form__input--big:focus {
   text-shadow: 0 4px 4px #f6f6f7;
   background:
-    url(../images/Search.svg) no-repeat 26px center,
+    url(../../images/Search.svg) no-repeat 26px center,
     linear-gradient(#fff, #f6f6f7);
   box-shadow: 0 3px 8px #3d4e6133;
 }
@@ -64,7 +64,7 @@
   text-shadow: none;
 
   background:
-    url(../images/Search.svg) no-repeat 13px center,
+    url(../../images/Search.svg) no-repeat 13px center,
     linear-gradient(#fff, #f6f6f7);
   background-size: 11px;
   box-shadow: none;
