@@ -2,6 +2,7 @@
   --shadow-color-primary: #fff;
   --shadow-color-secondary: #f6f6f7;
   --box-shadow-active: 0 3px 8px #3d4e6133;
+  --icon-image: url(/src/images/Search.svg);
   --icon-position-big: 26px;
   --icon-position-small: 13px;
   --icon-small-size: 11px;
@@ -20,7 +21,7 @@
   color: #3d4e61;
   text-align: left;
 
-  background-image: url(../../images/Search.svg);
+  background-image: var(--icon-image);
   background-repeat: no-repeat;
   outline: unset;
   box-shadow: 0 1px 8px #3d4e611a;
@@ -58,7 +59,7 @@
 .search-form__input--big:focus {
   text-shadow: 0 4px 4px var(--shadow-color-secondary);
   background:
-    url(../../images/Search.svg) no-repeat var(--icon-position-big) center,
+    var(--icon-image) no-repeat var(--icon-position-big) center,
     linear-gradient(var(--shadow-color-primary), var(--shadow-color-secondary));
   box-shadow: var(--box-shadow-active);
 }
@@ -72,7 +73,7 @@
   text-shadow: none;
 
   background:
-    url(../../images/Search.svg) no-repeat var(--icon-position-small) center,
+    var(--icon-image) no-repeat var(--icon-position-small) center,
     linear-gradient(var(--shadow-color-primary), var(--shadow-color-secondary));
   background-size: var(--icon-small-size);
   box-shadow: none;
